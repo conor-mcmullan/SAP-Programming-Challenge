@@ -1,0 +1,24 @@
+
+1. "lowest single letter" (alphabetical order)
+(No letter < C < B < A, multiple letters are ignored)
+
+
+       The combos that can win.
+
+------------------------------------
+|       Win     |       Lose       |
+------------------------------------
+|       A       |     No Letter    |    1 is in alpha combos
+|       B       |     No Letter    |    1 is in alpha combos
+|       C       |     No Letter    |    1 is in alpha combos
+|       A       |         B        |    both in alpha combos
+|       A       |         C        |    both in alpha combos
+|       B       |         C        |    both in alpha combos
+------------------------------------
+
+
+        On a tie, yellow < green < blue < red
+
+
+# print "\n\np 1\t[0]\t:\t" + str(p_1[0])
+# print "p 1\t[0][0]\t:\t" + str(p_1[0][0])+"\n"

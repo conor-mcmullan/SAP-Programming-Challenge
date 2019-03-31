@@ -1,0 +1,38 @@
+----------------------
+ Rules / Instructions
+----------------------
+
+#   48 unique tokens, colours (RGBY) and with a number (1-9) or letter (A-C)
+
+#   Two players randomly remove 1, 2, or 3 tokens each from the bag
+
+    Decide who wins based on the following rules
+#   Lower numbered rules taking precedence:
+
+
+
+^
+    1. "lowest single letter" (alphabetical order)
+^
+        (No letter < C < B < A, multiple letters are ignored)
+^
+
+
+
+^
+    2. "sum of numeric tokens closest to 8"
+^
+        (e.g. 7 beats 10, 10 beats 5, 6 and 10 are equal)
+^
+        On a tie, yellow < green < blue < red
+^
+
+
+
+^
+    3. "single highest token"
+^
+        ( 1 < 2 < 3 < 4 < 5 < 6 < 7 < 8 < 9 < C < B < A )
+^
+        e.g. blue 9 < blue C, red 4 < yellow 5, yellow A < green A)
+^
